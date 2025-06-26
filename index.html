@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DSA Visualizer</title>
+  <link data-default-icon="https://www.amcharts.com/wp-content/uploads/2020/05/demo_15702_none-3.png" size="190x190" rel="icon"
+  href="https://www.amcharts.com/wp-content/uploads/2020/05/demo_15702_none-3.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Sorting Visualizer</h1>
+  <br>
+
+  <div id="array-container" class="array-container"></div>
+  <div id="complexity-info" style="margin-top: 20px; font-style: italic;"></div>
+
+<br><br><p>Feeling lazy? No worries — just hit Sort!</p><br><br>
+
+  <div class="controls">
+    <button onclick="generateArray()">Randomize Array</button>
+    
+    <select id="algo">
+      <option value="bubble">Bubble Sort</option>
+      <option value="selection">Selection Sort</option>
+      <option value="insertion">Insertion Sort</option>
+      <option value="merge">Merge Sort</option>
+      <option value="quick">Quick Sort</option>
+      <option value="heap">Heap Sort</option>
+    </select>
+
+    <label>
+      Speed:
+    <input type="range" id="speed" min="10" max="500" value="10"/>
+    </label>
+
+    <button onclick="startSort()">Sort</button>
+  </div>
+
+<br>
+
+  <div id="complexity-info" class="info"></div>
+
+<footer class="footer">
+  © 2025
+  <a href="https://www.linkedin.com/in/arnav-jain-70486628a/" target="_blank">
+    <strong>Arnav Jain</strong>
+  </a>
+  | All Rights Reserved
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
