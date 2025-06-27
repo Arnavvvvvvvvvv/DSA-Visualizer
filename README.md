@@ -34,6 +34,11 @@ A responsive and interactive sorting algorithm visualizer built using HTML, CSS,
 
 ---
 
+## 🚀 Live Demo
+👉 [Play Now on GitHub Pages](https://arnavvvvvvvvvv.github.io/DSA-Visualizer/) 
+
+---
+
 ## 🚀 How to Use
 
 1. Choose a sorting algorithm
